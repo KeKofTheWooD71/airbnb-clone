@@ -24,6 +24,12 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-light bg-light px-4 py-3 mb-4 shadow-sm">
+      <%= link_to "🏠 Airbnb Clone", root_path, class: "navbar-brand fw-bold fs-4 text-danger" %>
+      <form class="d-flex">
+        <input class="form-control" type="text" placeholder="Rechercher une ville...">
+        </form>
+    </nav>
     <%= yield %>
   </body>
 </html>
